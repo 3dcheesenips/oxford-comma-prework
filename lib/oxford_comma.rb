@@ -5,6 +5,6 @@ elsif array.size == 2
   array.join(' and ')
 elsif array.size >2 
   lastWord = array.pop
-  array.join(', ') + ' and '+ lastWord
+  array.join(', ') + ', and '+ lastWord
 end
 end
